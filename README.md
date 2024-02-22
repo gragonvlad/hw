@@ -25,6 +25,6 @@
 10. **[git push](./push.md)**
 
 ---
-`Git logo`  http://git-scm.com/downloads/logos
+`Git logo`  [Logos](http://git-scm.com/downloads/logos)
 
 `License` [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)

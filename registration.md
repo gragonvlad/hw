@@ -5,7 +5,7 @@
 ## Регистрация на github.com
 Для регистрации на github.com:
 
-1. Перейдите по ссылке https://github.com/.
+1. Перейдите по ссылке [Github](https://github.com/).
 2. Выберите «Sign up».
 3. Заполните информацию.
 4. Нажмите кнопку «Create account».
