@@ -35,6 +35,17 @@ color: red;
 font-size: 0.5em;
 vertical-align: top;
 }
+#ref {
+    background: red;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #pop {
+    background: green;
+    width: 100px;
+    height: 100px;
+  }
 .news .second a h2::after {
 	content: "NEW";
 	color: red;
