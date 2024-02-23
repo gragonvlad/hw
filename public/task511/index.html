@@ -12,9 +12,12 @@
     <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
     <script src="bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+        $("#p1").mouseleave(function(){
+  alert("Пока надеемся еще вернетесь");
+});
         $('[data-toogle="tooltip"]').tooltip();     
      </script>
-    <header> <!-- Шапка сайта -->
+    <header id="p1"> <!-- Шапка сайта c эффектом -->
         <h1>Новости. Россия сегодня.</h1>
      </header>
      <section class="news">
