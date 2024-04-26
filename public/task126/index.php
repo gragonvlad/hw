@@ -115,33 +115,6 @@ function getGenderFromName ($str){
 
 }
 
-//Код который должен быть согласно условия задания, но выводит немного некорректно ФИО Бардо Жаклин Фёдоровна.
-/*
-function getGenderFromName ($str){
-
-    $arr = getPartsFromFullname($str);
-    $all = 0;
-    $woman = -1;
-    $man = 1;
-    $unknown = 0;
-    if (mb_substr($arr['surname'], -2) === 'ва'){$all -= 1;} 
-    if (mb_substr($arr['name'], -1) === 'а'){$all -= 1;} 
-    if (mb_substr($arr['patronomyc'], -3) === 'вна'){$all -= 1;} 
-
-    if (mb_substr($arr['surname'], -1) === 'в') {$all += 1;} 
-    if (mb_substr($arr['name'], -1) === 'н') {$all += 1;} 
-    if (mb_substr($arr['name'], -1) === 'й') {$all += 1;} 
-    if (mb_substr($arr['patronomyc'], -2) === 'ич'){$all += 1;} 
-
-    if ($all < 0){ 
-        return $woman;
-    } else if ($all > 0){
-        return $man;
-    } else {
-        return $unknown;
-    }
-}
-*/
 
 foreach ($example_persons_array as $name){
 
