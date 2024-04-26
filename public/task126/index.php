@@ -94,7 +94,6 @@ foreach ($example_persons_array as $name){
     echo '<br>';
 
 }
-
 echo '<hr>';
 
 function getGenderFromName ($str){
